@@ -1,3 +1,15 @@
+# Git
+
+## 📖 Sumário
+
+* [**4. Git e Controle de Versão**](#🐙-git-e-controle-de-versão)
+  * [O que é Git?](#o-que-é-git)
+  * [Instalando o Git](#instalando-o-git)
+  * [Os Comandos Essenciais para Iniciar](#⚙️-os-comandos-essenciais-para-iniciar)
+  * [Tabela Rápida: Resumo dos Comandos](#📝-tabela-rápida-resumo-dos-comandos)
+
+---
+
 ## 🐙 O que é Git?
 
 O **Git** é um **sistema de controle de versão**.

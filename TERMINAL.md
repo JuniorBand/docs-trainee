@@ -1,3 +1,17 @@
+# Terminal
+
+## 📖 Sumário
+
+* [**3. O Terminal**](#🐧-o-terminal)
+  * [O que é o Terminal?](#o-que-é-o-terminal)
+  * [O que ele pode fazer?](#🚀-o-que-ele-pode-fazer)
+  * [Como Abrir o Terminal](#🚪-como-abrir-o-terminal)
+  * [Comandos Essenciais (Foco no CMD)](#⌨️-comandos-essenciais-foco-no-cmd)
+  * [Dica Rápida: Autocompletar](#⭐-dica-rápida-autocompletar)
+  * [Exemplos Práticos no Windows (CMD)](#💻-exemplos-práticos-no-windows-cmd)
+
+---
+
 ## 🐧 O que é o Terminal?
 
 O terminal (ou "linha de comando") é uma interface baseada em texto para interagir com o seu computador.

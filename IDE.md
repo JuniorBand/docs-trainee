@@ -1,5 +1,15 @@
 # VSCode e Arduino IDE
 
+## 📖 Sumário
+
+* [**2. VSCode e Arduino IDE**](#vscode-e-arduino-ide)
+  * [Instalando VSCode](#instalando-vscode)
+  * [Setando VSCode](#setando-vscode)
+  * [Instalando a Arduino IDE](#⚡-instalando-a-arduino-ide)
+  * [Setando a Arduino IDE](#⚙️-setando-a-arduino-ide)
+
+---
+
 ## Instalando VSCode
 
 1.  **Acesse o site oficial:** [https://code.visualstudio.com/](https://code.visualstudio.com/)
