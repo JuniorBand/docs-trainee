@@ -121,7 +121,7 @@ gcc --version
 
 O **GDB (GNU Debugger)** é uma ferramenta essencial para depurar seu código (encontrar e corrigir erros).
 
-> [!NOTE]
+>[!NOTE]
 Na maioria dos casos, os pacotes que instalam o `gcc`/`g++` (como `build-essential` ou o toolchain do MSYS2) **já incluem o GDB**.
 
 **1. Verifique se o GDB está instalado:**

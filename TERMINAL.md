@@ -85,7 +85,9 @@ Se você quer entrar na pasta `Documentos`, em vez de digitar `cd Documentos`, v
 ## 💻 Exemplos Práticos no Windows (CMD)
 
 ### Exemplo 1: Navegar, Compilar e Executar
-![alt text](seu_gif_final.gif)
+![alt text](compilar.gif)
 ### Exemplo 2: Criar um novo projeto do zero
-![alt text](seu_gif_final.gif)
-### Exemplo 3: Renomear e Deletar arquivos (Limpeza)![alt text](seu_gif_final.gif)
+![alt text](criar_projeto_cmd.gif)
+### Exemplo 3: Renomear e Deletar arquivos (Limpeza)
+![alt text](renomear_cmd.gif)
+![alt text](renomear_wsl.gif)
