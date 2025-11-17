@@ -1,0 +1,6 @@
+output/
+*.exe
+.vscode/
+*.css
+Code/
+Conteúdo/
