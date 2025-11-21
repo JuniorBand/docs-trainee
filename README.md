@@ -32,4 +32,11 @@ Bem-vindo ao guia de configuração de ferramentas! Clique nos links abaixo para
   * [Fluxo de Trabalho em Equipe](./Markdown/GIT.md#5-o-fluxo-de-trabalho-em-equipe-o-essencial)
   * [Tabela Rápida de Comandos](./Markdown/GIT.md#📝-tabela-rápida-resumo-dos-comandos)
 
+* [**Aula 1 (Extras): Compilação e C++ Avançado**](./Conteúdo/Aula%201/Aula%201%20(Extras).md)
+  * [Compilação Manual (O que acontece?)](./Conteúdo/Aula%201/Aula%201%20(Extras).md#1-⚙️-compilação-manual-o-por-trás-dos-panos)
+  * [Tópicos Extras (Namespaces, Enums, Lambda)](./Conteúdo/Aula%201/Aula%201%20(Extras).md#2-📦-tópicos-extras-de-c-básico)
+  * [Conversão de Tipos (Casting)](./Conteúdo/Aula%201/Aula%201%20(Extras).md#3-conversão-de-tipos-casting)
+  * [⏱️ `delay()` vs. `millis()`](./Conteúdo/Aula%201/Aula%201%20(Extras).md#4-⏱️-delay-vs-millis)
+  * [📊 Diagramas de Referência](./Conteúdo/Aula%201/Aula%201%20(Extras).md#5-diagramas-e-referências)
+
 ---
