@@ -39,4 +39,13 @@ Bem-vindo ao guia de configuração de ferramentas! Clique nos links abaixo para
   * [⏱️ `delay()` vs. `millis()`](./Conteúdo/Aula%201/Aula%201%20(Extras).md#4-⏱️-delay-vs-millis)
   * [📊 Diagramas de Referência](./Conteúdo/Aula%201/Aula%201%20(Extras).md#5-diagramas-e-referências)
 
+* [**PDF 2: Memória e Ponteiros Avançados**](./Conteúdo/Aula%202/Aula%202%20(Extras).md)
+  * [🗺️ Mapa de Memória e Stack Overflow](./Conteúdo/Aula%202/Aula%202%20(Extras).md#1-🗺️-o-mapa-de-memória-detalhado)
+  * [📌 Ponteiros (Aritmética e Arrays)](./Conteúdo/Aula%202/Aula%202%20(Extras).md#2-📌-ponteiros-o-mergulho-profundo)
+  * [💥 O Heap (malloc, free, new)](./Conteúdo/Aula%202/Aula%202%20(Extras).md#3-💥-alocação-dinâmica-o-heap)
+  * [🔄 Fragmentação e `realloc`](./Conteúdo/Aula%202/Aula%202%20(Extras).md#4-🔄-malloc-e-realloc-o-jeito-c-de-gerenciar-o-heap)
+  * [⚔️ `String` vs. `char[]`](./Conteúdo/Aula%202/Aula%202%20(Extras).md#5-⚔️-o-duelo-string-vs-char-vs-char)
+  * [🔄 Recursividade vs. Loops](./Conteúdo/Aula%202/Aula%202%20(Extras).md#6-recursividade-vs-loops-iteração)
+  * [📊 Diagramas (Memory, Heap-Stack, Ponteiros)](./Conteúdo/Aula%202/Aula%202%20(Extras).md#7-diagramas-e-referências)
+
 ---
