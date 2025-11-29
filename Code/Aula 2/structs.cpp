@@ -4,12 +4,13 @@ using namespace std;
 // =================================================
 // DEFINIÇÃO DA STRUCT
 // =================================================
-struct SensorData {
+struct SensorData { // Existem outras formas de declarar structs,
+// estará lá no final do código.
     // --- Atributos (Variáveis) ---
     int id;
     float temperatura;
     float pressao;
-
+    
     // --- Métodos (Funções dentro da Struct) ---
     
     // 1. Função para exibir os dados (Encapsulamento)
@@ -25,14 +26,18 @@ struct SensorData {
         pressao = 0.0;
         cout << "[Metodo Interno] Leituras resetadas para zero!" << endl;
     }
+
+    
 };
+
 
 // =================================================
 // 1. O JEITO BÁSICO (Cópia) - Função Externa
 // =================================================
-void modoBasico(SensorData s) {
+SensorData modoBasico(SensorData s) {
     cout << "[Funcao Externa/Copia] Lendo: " << s.temperatura << endl;
     s.temperatura = 999.9; // Não muda o original
+    return s;
 }
 
 // =================================================
@@ -40,6 +45,7 @@ void modoBasico(SensorData s) {
 // =================================================
 void modoPonteiro(SensorData* ptr) {
     if (ptr == nullptr) return;
+    (*ptr).temperatura = 50.0;
     ptr->temperatura = 50.0; // Muda o original
     cout << "[Funcao Externa/Ponteiro] Alterado para 50.0" << endl;
 }
@@ -80,6 +86,7 @@ int main() {
 
     modoBasico(meuSensor);
     // meuSensor.imprimirRelatorio(); // Se imprimir aqui, verá que não mudou
+    cout << meuSensor.temperatura << endl;
 
     modoPonteiro(&meuSensor);
     meuSensor.imprimirRelatorio(); // Mudou a temperatura
@@ -121,3 +128,63 @@ int main() {
  * - Se APOPONTA (Ponteiro): SETA (->)
  * =================================================================
  */
+
+ /* * CHEAT SHEET: STRUCTS & TYPEDEF 
+ * Diferenças de declaração entre C e C++
+ */
+
+// =========================================================
+// 1. SEM TYPEDEF (A forma "Crua")
+// =========================================================
+
+struct Robot {
+    int id;
+    float bateria;
+};
+
+// --- Como declarar variáveis (Instanciar): ---
+
+// EM C -> OBRIGATÓRIO escrever 'struct' antes
+struct Robot r1; 
+
+// EM C++ -> O 'struct' é opcional (implícito)
+Robot r2;         // Válido apenas em C++
+struct Robot r3;  // Válido em ambos
+
+
+// =========================================================
+// 2. COM TYPEDEF (Criando um Apelido/Alias)
+// =========================================================
+
+typedef struct {
+    int id;
+    float velocidade;
+} Android; // 'Android' agora é um tipo de dado
+
+// --- Como declarar variáveis (Instanciar): ---
+
+// EM C -> Pode usar direto o apelido (sem escrever struct)
+Android a1;
+
+// EM C++ -> Mesma coisa
+Android a2;
+
+
+// =========================================================
+// 3. COMBO: NOME REAL + TYPEDEF (Comum em Listas/Árvores)
+// =========================================================
+
+typedef struct Node {
+    int data;
+    struct Node* next; // Dentro, ainda precisa de 'struct' (em C)
+} NodePtr; // 'NodePtr' é o apelido final
+
+// --- Como declarar variáveis (Instanciar): ---
+
+// EM C:
+struct Node n1; // Pelo nome original (precisa de 'struct')
+NodePtr n2;     // Pelo apelido (NÃO precisa de 'struct')
+
+// EM C++:
+Node n3;        // Pelo nome original (NÃO precisa de 'struct')
+NodePtr n4;     // Pelo apelido

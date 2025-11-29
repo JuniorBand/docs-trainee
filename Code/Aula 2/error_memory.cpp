@@ -44,7 +44,7 @@ void causarSegFault() {
     *ponteiroProibido = 42; 
 
     // Esta linha nunca será executada
-    cout << "Sucesso! (Voce nunca vera essa mensagem)" << endl;
+    cout << "Sucesso! (Voce nunca vera essa mensagem)" << *ponteiroProibido << endl;
 }
 
 // =========================================================

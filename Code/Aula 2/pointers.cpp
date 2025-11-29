@@ -20,7 +20,7 @@ void exemploMalloc();
 void exemploRealloc();
 void demonstrarStrings();
 
-int main(char argc, char **argv) {
+int main(char argc, char *argv[]) {
     cout << "--- INICIO DA DEMONSTRACAO ---" << endl << endl;
 
     // ==================================================
@@ -37,10 +37,10 @@ int main(char argc, char **argv) {
     // Em C++ no PC, o endereço é um número hexadecimal longo (ex: 0x7ff...)
     cout << "Endereco de 'numero' (&numero): " << &numero << endl;
     cout << "Valor do 'ponteiro': " << ponteiro << endl; // É o mesmo endereço!
-    
+    cout << "Desreferenciação: " << *ponteiro << endl;
     // A Mágica: Mudando o valor à distância (Desreferência)
     *ponteiro = 100; // "Vá até o endereço apontado e escreva 100"
-
+  
     cout << "Novo valor de 'numero' (alterado via ponteiro): " << numero << endl;
     cout << "-----------------------------------" << endl << endl;
 
@@ -60,6 +60,7 @@ int main(char argc, char **argv) {
     // Acessando via ponteiro (usa SETA)
     // A seta '->' é um atalho para: (*ptrTelemetria).altitude
     ptrTelemetria->altitude = 200.0; 
+    (*ptrTelemetria).altitude = 200.0;
 
     cout << "Nova Altitude (alterada via seta ->): " << telemetria.altitude << endl;
     cout << "-----------------------------------" << endl << endl;
@@ -95,15 +96,15 @@ int main(char argc, char **argv) {
     cout << endl << "--- FIM DA DEMONSTRACAO ---" << endl;
 
     char x {}; // assume this is assigned memory address 140
-    char& ref { x }; // ref is an lvalue reference to x (when used with a type, & means lvalue reference)
+    char& ref = x; // ref is an lvalue reference to x (when used with a type, & means lvalue reference)
 
     x = 'a';
     cout << x << endl;
     ref = 'b';
     cout << x << endl;
 
-    int* ptr1, ptr2;   // incorrect: ptr1 is a pointer to an int, but ptr2 is just a plain int!
-    int* ptr3, * ptr4; // correct: ptr3 and ptr4 are both pointers to an int
+    int *ptr1, ptr2;   // incorrect: ptr1 is a pointer to an int, but ptr2 is just a plain int!
+    int *ptr3, *ptr4; // correct: ptr3 and ptr4 are both pointers to an int
 
 
     // QUIZ
@@ -138,7 +139,7 @@ int main(char argc, char **argv) {
 	// cout << sizeof(*ptr) << '\n';
 
 
-    //demonstrarStrings();
+    demonstrarStrings();
 
     return 0;
 }
@@ -195,7 +196,7 @@ void demonstrarStrings() {
     cout << "[1] char[] (Array de Caracteres)" << endl;
     
     // Reserva 50 bytes na Stack. Tamanho fixo e garantido.
-    char buffer[50]; 
+    char buffer[50] = "ab"; // 'a', 'b', '\0'
     
     // Em C puro, não usamos '=', usamos funções de cópia
     strcpy(buffer, "Temperatura: "); 
@@ -206,6 +207,10 @@ void demonstrarStrings() {
     cout << "   Valor: " << buffer << endl;
     cout << "   Tamanho ocupado na memoria: " << sizeof(buffer) << " bytes (Fixo)" << endl;
     cout << "-----------------------------------" << endl;
+
+    //funções úteis:
+    //sprintf(buffer, "Eu tenho %d anos", idade); 
+    //snprintf(buffer, sizeof(buffer), "Eu tenho %d anos", idade);
 
 
     // =================================================
