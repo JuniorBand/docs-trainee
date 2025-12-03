@@ -2,6 +2,8 @@
 
 Bem-vindo ao guia de configuração de ferramentas! Clique nos links abaixo para ir para cada seção.
 
+Obs: Cada arquivo markdown possui um pdf correspondente que pode ser baixado o diretório [Markdown/pdfs/](/Markdown/pdfs/).  
+
 ## 📖 Sumário
 
 * [**1. Instalando Compiladores**](./Markdown/COMPILADORES.md)
@@ -39,7 +41,7 @@ Bem-vindo ao guia de configuração de ferramentas! Clique nos links abaixo para
   * [⏱️ `delay()` vs. `millis()`](./Conteúdo/Aula%201/Aula%201%20(Extras).md#4-⏱️-delay-vs-millis)
   * [📊 Diagramas de Referência](./Conteúdo/Aula%201/Aula%201%20(Extras).md#5-diagramas-e-referências)
 
-* [**PDF 2: Memória e Ponteiros Avançados**](./Conteúdo/Aula%202/Aula%202%20(Extras).md)
+* [**Aula 2 (Extras): Memória e Ponteiros Avançados**](./Conteúdo/Aula%202/Aula%202%20(Extras).md)
   * [🗺️ Mapa de Memória e Stack Overflow](./Conteúdo/Aula%202/Aula%202%20(Extras).md#1-🗺️-o-mapa-de-memória-detalhado)
   * [📌 Ponteiros (Aritmética e Arrays)](./Conteúdo/Aula%202/Aula%202%20(Extras).md#2-📌-ponteiros-o-mergulho-profundo)
   * [💥 O Heap (malloc, free, new)](./Conteúdo/Aula%202/Aula%202%20(Extras).md#3-💥-alocação-dinâmica-o-heap)
@@ -47,5 +49,11 @@ Bem-vindo ao guia de configuração de ferramentas! Clique nos links abaixo para
   * [⚔️ `String` vs. `char[]`](./Conteúdo/Aula%202/Aula%202%20(Extras).md#5-⚔️-o-duelo-string-vs-char-vs-char)
   * [🔄 Recursividade vs. Loops](./Conteúdo/Aula%202/Aula%202%20(Extras).md#6-recursividade-vs-loops-iteração)
   * [📊 Diagramas (Memory, Heap-Stack, Ponteiros)](./Conteúdo/Aula%202/Aula%202%20(Extras).md#7-diagramas-e-referências)
+
+* [**Aula 3 (Extras): Estruturas de Dados & OOP Avançado**](./Conteúdo/Aula%203/Aula%203%20(Extras).md)
+  * [🏗️ Estruturas de Dados (Listas, Pilhas, Filas)](./Conteúdo/Aula%203/Aula%203%20(Extras).md#1-🏗️-estruturas-de-dados-além-do-array)
+  * [👉 Ponteiros de Função (Callbacks)](./Conteúdo/Aula%203/Aula%203%20(Extras).md#2-👉-ponteiros-de-função-callbacks)
+  * [🏛️ OOP Avançado (Polimorfismo e Herança)](./Conteúdo/Aula%203/Aula%203%20(Extras).md#3-🏛️-oop-avançado-o-poder-da-arquitetura)
+  * [📊 Diagramas e Referências](./Conteúdo/Aula%203/Aula%203%20(Extras).md#4-diagramas-e-referências)
 
 ---
