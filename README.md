@@ -50,10 +50,14 @@ Obs: Cada arquivo markdown possui um pdf correspondente que pode ser baixado o d
   * [🔄 Recursividade vs. Loops](./Conteúdo/Aula%202/Aula%202%20(Extras).md#6-recursividade-vs-loops-iteração)
   * [📊 Diagramas (Memory, Heap-Stack, Ponteiros)](./Conteúdo/Aula%202/Aula%202%20(Extras).md#7-diagramas-e-referências)
 
+* [**Teste 1: Dimmer Digital**](./Conteúdo/Aula%202/Teste%201.md)
+
 * [**Aula 3 (Extras): Estruturas de Dados & OOP Avançado**](./Conteúdo/Aula%203/Aula%203%20(Extras).md)
   * [🏗️ Estruturas de Dados (Listas, Pilhas, Filas)](./Conteúdo/Aula%203/Aula%203%20(Extras).md#1-🏗️-estruturas-de-dados-além-do-array)
   * [👉 Ponteiros de Função (Callbacks)](./Conteúdo/Aula%203/Aula%203%20(Extras).md#2-👉-ponteiros-de-função-callbacks)
   * [🏛️ OOP Avançado (Polimorfismo e Herança)](./Conteúdo/Aula%203/Aula%203%20(Extras).md#3-🏛️-oop-avançado-o-poder-da-arquitetura)
   * [📊 Diagramas e Referências](./Conteúdo/Aula%203/Aula%203%20(Extras).md#4-diagramas-e-referências)
+
+* [**Teste 2: Luz Estroboscópica**](./Conteúdo/Aula%203/Teste%202.md)
 
 ---
