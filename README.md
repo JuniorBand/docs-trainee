@@ -51,6 +51,8 @@ Obs: Cada arquivo markdown possui um pdf correspondente que pode ser baixado o d
   * [📊 Diagramas (Memory, Heap-Stack, Ponteiros)](./Conteúdo/Aula%202/Aula%202%20(Extras).md#7-diagramas-e-referências)
 
 * [**Teste 1: Dimmer Digital**](./Conteúdo/Aula%202/Teste%201.md)
+  * GABARITO DISPONÍVEL EM: [Teste 1 - Gabarito](./Code/Aula%202/Teste1/Teste1.ino) e [Teste 1 (com desafios) - Gabarito](./Code/Aula%202/Teste1/Test1_4_botoes.ino).
+  * Tinkercad com o código funcionando: [Teste 1 - Tinkercad](https://www.tinkercad.com/things/fdA3HYOF7bv-teste1/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=Pf6eiY2QQKJdaE1mf7i5uXVDO-dcW1wiwEoo3tkhSC4)
 
 * [**Aula 3 (Extras): Estruturas de Dados & OOP Avançado**](./Conteúdo/Aula%203/Aula%203%20(Extras).md)
   * [🏗️ Estruturas de Dados (Listas, Pilhas, Filas)](./Conteúdo/Aula%203/Aula%203%20(Extras).md#1-🏗️-estruturas-de-dados-além-do-array)
@@ -59,5 +61,7 @@ Obs: Cada arquivo markdown possui um pdf correspondente que pode ser baixado o d
   * [📊 Diagramas e Referências](./Conteúdo/Aula%203/Aula%203%20(Extras).md#4-diagramas-e-referências)
 
 * [**Teste 2: Luz Estroboscópica**](./Conteúdo/Aula%203/Teste%202.md)
+  * GABARITO DISPONÍVEL EM: [Teste 2 - Gabarito](./Code/Aula%203/Teste2/Teste2.ino) e [Teste 2 (com desafios) - Gabarito](./Code/Aula%203/Teste2/OneFile_heranca.ino).
+  * Tinkercad com o código funcionando: [Teste 2 - Tinkercad](https://www.tinkercad.com/things/0t7AZv4yCLy-teste2/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=6TPFMBRjOkOHWXPzEiKIj4CIh0g85zf6VWzKlSddR9U)
 
 ---

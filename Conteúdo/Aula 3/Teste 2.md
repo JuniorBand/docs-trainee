@@ -1,5 +1,9 @@
 ### ✍️ Teste 2 (Avaliação da Aula 3)
 
+* GABARITO DISPONÍVEL EM: [Teste 2 - Gabarito](../../Code/Aula%203/Teste2/Teste2.ino) e [Teste 2 (com desafios) - Gabarito](../../Code/Aula%203/Teste2/OneFile_heranca.ino).
+
+* Tinkercad com o código funcionando: [Teste 2 - Tinkercad](https://www.tinkercad.com/things/0t7AZv4yCLy-teste2/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=6TPFMBRjOkOHWXPzEiKIj4CIh0g85zf6VWzKlSddR9U)
+
 * **Formato:** "Para casa". Entregar após a Aula 3.
 * **Problema Proposto:** "Crie uma classe `StrobeLight` (`.h` e `.cpp`) que simula uma luz estroboscópica de aviônica e controla um circuito de potência (MOSFET)."
 #### 1.  **Circuito (Tinkercad):** Monte um circuito de potência. O Pino ~5, por exemplo, do Arduino deve controlar o **Gate** de um **MOSFET Canal-N**.
@@ -72,7 +76,7 @@ O simulador não aceita abas `.h` e `.cpp` separadas.
 
 -----
 
-### 🏆 Parte 2: O Bônus (Nível Arquiteto - Herança)
+### 🏆 Parte 2: Desafios Extras (Para quem quer ir além: Nível Arquiteto - Herança)
 
 Aqui é onde você ganha destaque. Você vai notar que `StrobeLight` e `Beacon` têm muito código repetido (ambas têm `m_pin`, `m_state`, `m_previousMillis`).
 

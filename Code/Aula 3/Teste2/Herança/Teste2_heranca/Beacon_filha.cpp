@@ -1,16 +1,6 @@
-#include "Generica.h"
+#include "Beacon_filha.h"
 #include <Arduino.h>
 
-// ==========================================
-// CLASSE FILHA 2: Beacon
-// ==========================================
-class Beacon : public Generica {
-    public:
-        // MUDANÇA 3: O Construtor Obrigatório
-        Beacon(uint8_t pin) : Generica(pin) {}
-
-        void update() override;
-};
 
 void Beacon::update() {
     unsigned long currentMillis = millis();

@@ -1,32 +1,22 @@
-// ==========================================
-// CLASSE MÃE (Abstrata)
-// ==========================================
+//Arquivo para ser colado no Tinkercad
+
 class Generica {
     public:
-        Generica(uint8_t pin);
+        Generica(uint8_t pin) : m_pin(pin), m_previousMillis(0), m_state(0) {
+            pinMode(m_pin, OUTPUT);
+        }
+
         virtual void update() = 0; // Função virtual pura
         
-    // MUDANÇA 1: 'protected' em vez de 'private'
-    // Agora os filhos (Strobe e Beacon) podem ler/escrever essas variáveis
     protected: 
         uint8_t m_pin;
         uint8_t m_state;
         unsigned long m_previousMillis; 
 };
 
-// Implementação do Construtor da Mãe
-Generica::Generica(uint8_t pin) : m_pin(pin), m_previousMillis(0), m_state(0) {
-    pinMode(m_pin, OUTPUT);
-}
-
-// ==========================================
-// CLASSE FILHA 1: StrobeLight
-// ==========================================
-// MUDANÇA 2: Adicionado ': public'
 class StrobeLight : public Generica {
     public:
-        // MUDANÇA 3: O Construtor Obrigatório
-        // Ele recebe o pino e repassa para a Generica(pin)
+
         StrobeLight(uint8_t pin) : Generica(pin) {} 
         
         void update() override;
@@ -35,13 +25,12 @@ class StrobeLight : public Generica {
 void StrobeLight::update() {
     unsigned long currentMillis = millis();
     
-    // Agora funciona porque m_state é 'protected'
     switch (m_state) {
         case 0:
             digitalWrite(m_pin, HIGH);
             if(currentMillis - m_previousMillis >= 200){
                 m_state++;
-                m_previousMillis = currentMillis; // Lógica corrigida aqui (ordem)
+                m_previousMillis = currentMillis; 
                 Serial.println(F("Strobe: 1 (ON)"));
             }
             break;
@@ -72,12 +61,9 @@ void StrobeLight::update() {
     }
 }
 
-// ==========================================
-// CLASSE FILHA 2: Beacon
-// ==========================================
+
 class Beacon : public Generica {
     public:
-        // MUDANÇA 3: O Construtor Obrigatório
         Beacon(uint8_t pin) : Generica(pin) {}
 
         void update() override;
@@ -106,9 +92,6 @@ void Beacon::update() {
     }
 }
 
-// ==========================================
-// PROGRAMA PRINCIPAL
-// ==========================================
 StrobeLight luzEstroboscopica(3);
 Beacon farol(5);
 

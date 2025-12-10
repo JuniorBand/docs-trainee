@@ -1,5 +1,9 @@
 ### ✍️ Teste 1 (Avaliação das Aulas 1 e 2)
 
+* GABARITO DISPONÍVEL EM: [Teste 1 - Gabarito](../../Code/Aula%202/Teste1/Teste1.ino) e [Teste 1 (com desafios) - Gabarito](../../Code/Aula%202/Teste1/Test1_4_botoes.ino).
+
+* Tinkercad com o código funcionando: [Teste 1 - Tinkercad](https://www.tinkercad.com/things/fdA3HYOF7bv-teste1/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=Pf6eiY2QQKJdaE1mf7i5uXVDO-dcW1wiwEoo3tkhSC4)
+
 **Objetivo:** Criar um sistema de controle de iluminação robusto e eficiente, aplicando conceitos de memória e lógica não-bloqueante.
 
 * **Problema Proposto:** "Crie um 'Dimmer Digital'."
