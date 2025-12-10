@@ -3,7 +3,6 @@
 int main(int argc, char const *argv[])
 {
     
-    
     int x = 10;
     int y = 20;
 
@@ -24,13 +23,13 @@ int main(int argc, char const *argv[])
     // }
 
 
-    // if(true){
-    //     if(false){
-    //         std::cout << "Partially true" << std::endl;
-    //     }
-    // } else{
-    //     std::cout << "Completely false" << std::endl;
-    // }
+if(true){
+    if(false){
+        std::cout << "Partially true" << std::endl;
+    }
+} else {
+    std::cout << "Completely false" << std::endl;
+}
 
 
     char valor = 'a';

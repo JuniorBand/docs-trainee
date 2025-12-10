@@ -29,6 +29,12 @@ int main(char argc, char *argv[]) {
     // ==================================================
     cout << "1. PONTEIROS NA STACK (BASICO)" << endl;
 
+    int anterior = 2;
+    int& valor = anterior; // referencia 'valor' para 'anterior'
+    valor = 5; // altera 'anterior' para 5
+    cout << "Valor de 'anterior': " << anterior << endl;
+    cout << "Valor de 'valor' (referencia): " << valor << endl;
+
     int numero = 42;          // Variável normal (vive na Stack)
     int* ponteiro = &numero;  // Ponteiro que guarda o ENDEREÇO de 'numero'
 

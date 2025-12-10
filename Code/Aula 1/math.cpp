@@ -47,7 +47,7 @@ int main(int argc, char const *argv[])
     // 0101 >> 1 = 0010 (2)
     cout << "SHR (a >> 1): " << (a >> 1) << endl;
     
-    if (10 > 5)
+    if(10 > 5)
     if((10 > 5) || (3 != 4))
     // && || == != > < 
 
