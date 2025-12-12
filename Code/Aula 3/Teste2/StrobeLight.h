@@ -4,7 +4,6 @@
 #include <Arduino.h>
 
 
-//typedef void (*meuPrint)(const char *);
 
 class StrobeLight {
     public:
